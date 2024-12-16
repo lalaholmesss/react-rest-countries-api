@@ -1,0 +1,39 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+    max-height: 30px;
+    box-shadow: 0 5px 5px rgb(232, 232, 232);}
+
+.modeSwitch {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.modeSwitch button {
+    border: none;
+    font-size: 24px;
+    background: transparent;
+    transition: 500ms;
+    cursor: pointer;
+}
+ 
+.modeSwitch button:hover {
+    opacity: 0.5;
+}
+
+
+.modeSwitch p {
+    font-size: 24px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.modeSwitch p:hover {
+    opacity: 0.75;
+}
